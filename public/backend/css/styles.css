@@ -1,0 +1,72 @@
+.icons {
+    width: 1em; 
+    vertical-align: -.125em;
+    height: 1em;
+}
+
+.custom-change-icon {
+    font-size: 1.5em;
+    padding-right: 0.5em;
+}
+
+form.ad-form {
+    max-width: 650px;
+    padding: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-right: 1em;
+}
+
+.ad_input {
+    width: 60% !important;
+}
+
+.contact-input {
+    width: 30% !important;
+}
+
+.file-drop-area {
+    border: 1px solid #bfbbbb;
+    border-radius: 4px;
+    background: white;
+}
+.drop-area {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-columns {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+}
+
+.bootstrap-tagsinput {
+    width: 60%;
+}
+
+.img {
+    position: relative;
+}
+
+.img a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.custom-number::-webkit-outer-spin-button,
+.custom-number::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
